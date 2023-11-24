@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Form = styled.form`
   display: flex;
   align-items: center;
+  justify-content: space-between;
   & input {
-    margin-right: 5px;
     width: 78%;
     height: 43px;
     padding: 12px;
@@ -14,7 +14,7 @@ export const Form = styled.form`
 `;
 
 export const AddButton = styled.button`
-  width: 19%;
+  width: 12%;
   height: 30px;
   background-color: transparent;
   border: none;
