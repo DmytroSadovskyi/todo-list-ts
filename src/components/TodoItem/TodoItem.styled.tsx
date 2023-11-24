@@ -8,6 +8,9 @@ export const Item = styled.li`
 
   border-radius: 4px;
   border: 1px solid gainsboro;
+  &:hover {
+    transform: scale();
+  }
 `;
 
 export const DeleteButton = styled.button`
