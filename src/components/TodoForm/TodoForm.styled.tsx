@@ -15,11 +15,15 @@ export const Form = styled.form`
 
 export const AddButton = styled.button`
   width: 12%;
-  height: 30px;
+
   background-color: transparent;
   border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 5px;
+  & svg {
+    width: 100%;
+  }
 `;
